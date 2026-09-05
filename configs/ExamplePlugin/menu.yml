@@ -1,0 +1,20 @@
+# Menu layout.
+#
+# schema-version is the structure version of this file. If a plugin update
+# changes the structure, a mismatch is reported clearly on startup instead of
+# the menu silently breaking. If the console reports a schema-version mismatch
+# after updating the plugin, follow its message and update this number to
+# match; otherwise leave it alone.
+#
+# Each "name" and "lore" entry is a message key, looked up in messages_<language>.yml.
+menu:
+  schema-version: 1
+  title: menu.shop.title
+  rows: 3
+  items:
+    diamond:
+      material: DIAMOND
+      slot: 13
+      name: menu.shop.diamond.name
+      lore:
+        - menu.shop.diamond.lore

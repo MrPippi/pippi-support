@@ -1,0 +1,18 @@
+command:
+  reload:
+    success: '<green>Configuration reloaded.'
+  version: '<gray>Version <white><version>'
+  dump:
+    success: '<green>Wrote <white><file><green> for comparison.'
+  score:
+    saved: '<green>Score saved: <white><score>'
+    current: '<gray>Your current score is <white><score>'
+    none: '<gray>You have no score yet.'
+greeting:
+  text: 'Hello, <player>!'
+menu:
+  shop:
+    title: '<dark_gray>Example Menu'
+    diamond:
+      name: '<aqua>Diamond'
+      lore: '<gray>Just an example item'

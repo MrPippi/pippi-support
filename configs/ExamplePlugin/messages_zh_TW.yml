@@ -1,0 +1,18 @@
+command:
+  reload:
+    success: '<green>設定已重新載入。'
+  version: '<gray>版本 <white><version>'
+  dump:
+    success: '<green>已產生 <white><file><green>,可與你目前的設定檔比對。'
+  score:
+    saved: '<green>已記錄你的分數:<white><score>'
+    current: '<gray>你目前的分數是 <white><score>'
+    none: '<gray>你還沒有分數紀錄。'
+greeting:
+  text: '哈囉,<player>!'
+menu:
+  shop:
+    title: '<dark_gray>範例選單'
+    diamond:
+      name: '<aqua>鑽石'
+      lore: '<gray>這只是個範例項目'

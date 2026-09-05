@@ -1,0 +1,25 @@
+# ExamplePlugin configuration
+#
+# This file is never modified by the plugin after it is first created.
+# When an update adds new options, they are listed in the server console on
+# startup and the plugin falls back to their default values.
+# Run /example config dump to write out the full latest defaults for comparison.
+
+database:
+  # Either "sqlite" or "mysql".
+  # SQLite needs no setup and is recommended for a single server.
+  # Use MySQL when several servers share the same data.
+  type: sqlite
+  host: localhost
+  port: 3306
+  name: minecraft
+  username: root
+  password: ''
+  # Several PippiStudio plugins may share one database.
+  # This prefix keeps their tables apart.
+  table-prefix: example_
+  pool-size: 6
+
+greeting:
+  # Formatting applied to the greeting. Supports MiniMessage tags.
+  style: '<gradient:#55ff55:#00aa00>'
