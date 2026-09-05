@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and discussion
+    url: https://github.com/MrPippi/pippi-support/discussions
+    about: Not sure it is a bug, or need help with configuration? Ask here.
+  - name: Default configuration files
+    url: https://github.com/MrPippi/pippi-support/tree/main/configs
+    about: Full default config for every plugin, to compare against your own.

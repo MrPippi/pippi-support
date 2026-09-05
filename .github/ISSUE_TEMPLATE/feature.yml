@@ -1,0 +1,29 @@
+name: Feature request
+description: Suggest something the plugin should be able to do
+labels: ["type:feature"]
+body:
+  - type: dropdown
+    id: plugin
+    attributes:
+      label: Plugin
+      options:
+        - ExamplePlugin
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve
+      description: >
+        Describe the difficulty you ran into rather than the feature you want.
+        Starting from the problem often leads to a better solution.
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: How would you like it solved
+    validations:
+      required: true

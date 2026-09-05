@@ -1,0 +1,68 @@
+name: Bug report
+description: Something in the plugin is not working
+labels: ["type:bug", "status:needs-info"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before reporting, please make sure both the plugin and your server
+        software are up to date. Many problems disappear after updating.
+
+  - type: dropdown
+    id: plugin
+    attributes:
+      label: Plugin
+      options:
+        - ExamplePlugin
+    validations:
+      required: true
+
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Plugin version
+      description: Run /<plugin> version in game to find this.
+      placeholder: "1.2.0"
+    validations:
+      required: true
+
+  - type: input
+    id: server
+    attributes:
+      label: Server version and software
+      description: >
+        Requires Paper 26.2 or a fork of it (Purpur, Pufferfish, Folia).
+        Plain Spigot is not supported.
+      placeholder: "Paper 26.2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: debug
+    attributes:
+      label: Debug report
+      description: >
+        Run /<plugin> debug and paste the whole output here.
+        Passwords are masked automatically.
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: log
+    attributes:
+      label: Server log
+      description: >
+        Paste the relevant part of logs/latest.log.
+        If it is long, upload it to https://mclo.gs and paste the link instead.
+      render: text
+    validations:
+      required: true
