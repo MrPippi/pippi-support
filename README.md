@@ -48,5 +48,7 @@ using SQLite or MySQL storage.
 
 ## Documentation
 
-Installation guides, per-option configuration reference and frequently asked
-questions are in the [Wiki](../../wiki).
+[INSTALLATION.md](./INSTALLATION.md) covers the requirements, what happens on the
+first start, the database options, and how updates treat your configuration files.
+
+For anything it does not answer, ask in [Discussions](../../discussions).
